@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentSchoolList">
+
+    <fragment
+        android:id="@+id/fragmentSchoolList"
+        android:name="com.practice.nyschools.ui.SchoolListFragment"
+        android:label="FragmentSchoolList" >
+        <action
+            android:id="@+id/action_fragmentSchoolList_to_schoolDetailsFragment"
+            app:destination="@id/schoolDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/schoolDetailsFragment"
+        android:name="com.practice.nyschools.ui.SchoolDetailsFragment"
+        android:label="SchoolDetailsFragment" />
+</navigation>

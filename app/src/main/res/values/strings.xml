@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NYSchools</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email_addr_title">Email : </string>
+    <string name="phone_number_title">Phone : </string>
+    <string name="school_website_title">Website : </string>
+    <string name="address_title">Address : </string>
+    <string name="avg_reading_score_title">SAT average Reading Score :</string>
+    <string name="avg_writing_score_title">SAT average Writing Score :</string>
+    <string name="avg_math_score_title">SAT average Math Score :</string>
+    <string name="button_retry">Retry</string>
+    <string name="about_us_title">About Us</string>
+
+
+</resources>
